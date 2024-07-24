@@ -1,0 +1,281 @@
+{"data": [
+    {
+      "MetaTagTitle": "Test Meta Tag Title",
+
+      "MetaTagDescription": "Test Meta Tag Description",
+
+      "HasCaptcha": true,
+
+      "language": "tr",
+
+      "title": "Sponsorluk Talep Başvuru Formu",
+
+      "formdescription": "With both editors, you can create clean HTML output with the easiest WYSIWYG editing possible. If you've already started writing rich-text content, all you have to do is paste it in onlinehtmleditor.dev, make your adjustments, extract HTML output from view-source mode and reuse it anywhere on the web!",
+
+      "FormDetailDescription": "With both editors, you can create clean HTML output with the easiest WYSIWYG editing possible. If you've already started writing rich-text content, all you have to do is paste it in onlinehtmleditor.dev, make your adjustments, extract HTML output from view-source mode and reuse it anywhere on the web!",
+
+      "Formrightdescription": "With both editors, you can create clean HTML output with the easiest WYSIWYG editing possible. If you've already started writing rich-text content, all you have to do is paste it in onlinehtmleditor.dev, make your adjustments, extract HTML output from view-source mode and reuse it anywhere on the web!",
+
+      "FormFooterColumn": "Footer Kolon.Kısa Açıklama Sponsorluk taleplerini sağlıklı şekilde yönetebilmek amacı ile bu konudaki başvuruları sadece online olarak, bu form üzerinden kabul ediyoruz. Tehlike, şiddet ve ayrımcılık içeren etkinliklere sponsorluk vermediğimizi hatırlatırız.",
+
+      "Columns": [
+        {
+          "ColName": "ColData1",
+
+          "ColTitle": "Text Zorunlu",
+
+          "ColType": 1,
+
+          "ColSize": 600,
+
+          "ColRequired": true,
+
+          "ColEmptyField": false
+        },
+
+        {
+          "ColName": "ColData2",
+
+          "ColType": 2,
+
+          "ColSize": 999,
+
+          "ColCols": 2,
+
+          "ColRows": 7,
+
+          "ColRequired": true,
+
+          "ColEmptyField": false
+        },
+
+        {
+          "ColName": "ColData3",
+
+          "ColTitle": "Multi Text Zorunlu Değil",
+
+          "ColType": 2,
+
+          "ColSize": 700,
+
+          "ColCols": 2,
+
+          "ColRows": 7,
+
+          "ColRequired": false,
+
+          "ColEmptyField": false
+        },
+
+        {
+          "ColName": "ColData4",
+
+          "ColTitle": "Email",
+
+          "ColType": 3,
+
+          "ColSize": 200,
+
+          "ColRequired": true,
+
+          "ColEmptyField": false
+        },
+
+        {
+          "ColName": "ColData5",
+
+          "ColTitle": "Seçenek Boş Satır Yok",
+
+          "ColType": 4,
+
+          "ColSize": 800,
+
+          "ColChoice": [
+            {
+              "value": "1",
+              "label": "Seçenek 1"
+            },
+            {
+              "value": "2",
+              "label": "Seçenek 2"
+            }
+          ],
+
+          "ColRequired": true,
+
+          "ColEmptyField": false
+        },
+
+        {
+          "ColName": "ColData6",
+
+          "ColTitle": "Seçenek Boş Satır Var",
+
+          "ColType": 4,
+
+          "ColSize": 800,
+
+          "ColChoice": [
+            {
+              "value": "3",
+              "label": "Seçenek 3"
+            },
+            {
+              "value": "4",
+              "label": "Seçenek 4"
+            }
+          ],
+
+          "ColRequired": false,
+
+          "ColEmptyField": true,
+
+          "ColEmptyFieldText": {
+              "value": "0",
+              "label": "Lüften Seçiniz"
+            }
+        },
+        
+        {
+          "ColName": "ColData21",
+
+          "ColTitle": "checkbox",
+
+          "ColType": 11,
+          "ColChoice": [
+            {
+              "value": "1",
+              "label": "Seçenek 1"
+            },
+            {
+              "value": "2",
+              "label": "Seçenek 2"
+            },
+            {
+              "value": "3",
+              "label": "Seçenek 3"
+            }
+          ],
+
+          "ColRequired": false
+
+        },
+        {
+          "ColName": "ColData22",
+
+          "ColTitle": "checkbox",
+
+          "ColType": 11,
+          "ColChoice": [
+            {
+              "value": "4",
+              "label": "Seçenek 4"
+            },
+            {
+              "value": "5",
+              "label": "Seçenek 5"
+            },
+            {
+              "value": "6",
+              "label": "Seçenek 6"
+            }
+          ],
+
+          "ColRequired": true        },
+        
+        {
+          "ColName": "ColData23",
+
+          "ColTitle": "tc kimlik",
+
+          "ColType": 12,
+
+          "ColRequired": true
+
+        },
+
+        {
+          "ColName": "ColData7",
+
+          "ColTitle": "Şifre",
+
+          "ColType": 5,
+
+          "ColSize": 5,
+
+          "ColRequired": true       },
+
+        {
+          "ColName": "ColData8",
+
+          "ColTitle": "Tarih",
+
+          "ColType": 7,
+
+          "ColSize": 10,
+
+          "ColRequired": false        },
+
+        {
+          "ColName": "ColData9",
+
+          "ColTitle": "Doğum Tarihi Zorunlu",
+
+          "ColType": 14,
+
+          "ColRequired": true        },
+
+        {
+          "ColName": "ColData10",
+
+          "ColTitle": "Doğum Tarihi Zorunlu Değil",
+
+          "ColType": 14,
+
+          "ColRequired": false        },
+
+        {
+          "ColName": "ColData11",
+
+          "ColTitle": "Evet/Hayır Zorunlu",
+
+          "ColType": 8,
+
+          "ColRequired": true        },
+
+        {
+          "ColName": "ColData12",
+
+          "ColTitle": "Evet/Hayır Zorunlu Değil",
+
+          "ColType": 8,
+
+          "ColRequired": false        },
+
+        {
+          "ColName": "ColData19",
+
+          "ColTitle": "tel no",
+
+          "ColType": 10,
+
+          "ColRequired": true,
+
+          "ColEmptyField": true
+        },
+
+        {
+          "ColName": "ColData20",
+
+          "ColTitle": "tel no Zorunlu Değil",
+
+          "ColType": 10,
+
+          "ColRequired": false,
+
+          "ColEmptyField": true
+        }
+      ]
+    }
+  ]
+}

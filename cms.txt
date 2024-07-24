@@ -1,0 +1,10 @@
+
+"cms": {
+    "message.req": "{ColumnTitle} alanını lütfen kontrol ediniz",
+
+    "message.email": "Lütfen geçerli bir e-posta adresi giriniz.",
+
+    "message.captcha": "Lütfen güvenlik kodunu giriniz.",
+
+    "message.checkbox": "Bu alanı işaretlemeniz gerekmektedir."
+  }
